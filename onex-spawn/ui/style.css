@@ -1,0 +1,193 @@
+@font-face {
+    font-family: RubricaXtCn;
+    src: url(/ui/fonts/RubricaXtCn.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+
+    display: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 100px 100px 800px 150px rgb(0 0 0 / 92%) inset;
+}
+
+
+.mainheader1 {
+    position: absolute;
+    bottom: 16vw;
+    left: 2.7vw;
+    font-family: RubricaXtCn;
+    font-size: 1.5vw;
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+.mainheader2 {
+    position: absolute;
+    bottom: 10.5vw;
+    left: 2.5vw;
+    font-family: RubricaXtCn;
+    font-size: 5vw;
+    color: white;
+}
+
+
+.spawnlocations {
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: grab;
+
+    position: absolute;
+    bottom: -.8vw;
+    left: 2vw;
+    height: 21%;
+    width: 95.5%;
+}
+
+
+.spawnIndex {
+    display: inline-block;
+    width: 18vw;
+    height: 10vw;
+    margin-left: 0.6vw;
+    transition: 0.3s;
+    border: 2.5px solid white;
+}
+
+
+.spawnIndex:hover {
+    border: 2.5px solid #ff006a;
+}
+
+.spawnNmae {
+    position: relative;
+    bottom: -7.2vw;
+    left: .8vw;
+    font-family: RubricaXtCn;
+    font-size: 2vw;
+    color: white;
+}
+
+#spawnBtn {
+    position: absolute;
+    left: 26vw;
+    bottom: 12.2vw;
+    width: 7vw;
+    height: 3.2vw;
+    outline: none;
+    background: #ff006a;
+    border: 2px solid #ff006a;
+    color: white;
+    font-family: RubricaXtCn;
+    font-size: 1.5vw;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#spawnBtn:hover,
+#lastlocBtn:hover {
+    transform: scale(1.04);
+}
+
+#lastlocBtn {
+    position: absolute;
+    left: 34vw;
+    bottom: 12.2vw;
+    width: 7vw;
+    height: 3.2vw;
+    outline: none;
+    background: black;
+    border: 2px solid #ff006a;
+    color: white;
+    font-family: RubricaXtCn;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+.PersonStroke {
+    position: absolute;
+    left: 11vw;
+    top: 8vh;
+}
+
+#person {
+    position: absolute;
+    opacity: .8;
+    transform: scale(.8);
+}
+
+.str0 {
+    stroke: white;
+    stroke-width: 14.62;
+    stroke-miterlimit: 22.9256
+}
+
+.fil0 {
+    fill: none
+}
+
+.weather-icon {
+    position: absolute;
+    fill: white;
+    right: 3.3vw;
+    bottom: 13vw;
+    transform: scale(1.7);
+}
+
+.weather-text {
+    position: absolute;
+    color: white;
+    font-family: RubricaXtCn;
+    font-size: 1.2vw;
+    right: 5.5vw;
+    bottom: 12.6vw;
+    letter-spacing: 2px;
+
+}
+
+.clock-icon {
+    position: absolute;
+    fill: white;
+    right: 3.3vw;
+    bottom: 16vw;
+    transform: scale(1.4);
+}
+
+.clock-time {
+    position: absolute;
+    color: white;
+    font-family: RubricaXtCn;
+    font-size: 1.2vw;
+    right: 5.5vw;
+    bottom: 15.8vw;
+
+}
+
+.line {
+    position: absolute;
+    background: white;
+    width: 3vw;
+    height: .1vw;
+    bottom: 13.8vw;
+    left: 23.3vw;
+    transform: rotate(90deg);
+    opacity: 0.4;
+}
